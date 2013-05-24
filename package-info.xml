@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info">
+    <name>Highslide Image Viewer</name>
+    <id>digger:Highslide</id>
+    <type>modification</type>
+    <version>1.7</version>
+    <install>
+        <require-dir name="Highslide" destination="$themedir"/>
+        <modification>install.xml</modification>
+    </install>
+    <uninstall>
+        <modification reverse="true">install.xml</modification>
+        <remove-dir name="$themedir/Highslide"/>
+    </uninstall>
+</package-info>
