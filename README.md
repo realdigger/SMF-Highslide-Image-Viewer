@@ -11,6 +11,15 @@
 * Work for attached and linked images with thumbnails
 * Also works for thumbnails from Imageshack.us, Photobucket.com, iPicture.ru, Radikal.ru, Keep4u.ru, Xs.to and Fotosik.pl
 
+What is Highslide JS?
+
+Highslide JS is an open source JavaScript software, offering a Web 2.0 approach to popup windows. It streamlines the use of thumbnail images and HTML popups on web pages. The library offers these features and advantages: 
+* No plugins like Flash or Java required.
+* Popup blockers are no problem. The content expands within the active browser window.
+* Single click. After opening the image or HTML popup, the user can scroll further down or leave  the page without closing it.
+* Compatibility and safe fallback. If the user has disabled JavaScript or is using an old browser, the browser redirects directly to the image itself or to a fallback HTML page.
+* http://highslide.com
+
 ## Описание
 * При клике на картинку подгружается большое изображение. Если оно больше области просмотра, то сжимается до границ области просмотра и появляется значок при клике на который растягивается до оригинального размера. Изображение можно перетаскивать. При повторном клике большое изображение "возвращается на место".
 * Стрелки курсора на клавиатуре листают все изображения на странице. Имеется функция слайдшоу для картинок размещенных в пределах одной страницы.
