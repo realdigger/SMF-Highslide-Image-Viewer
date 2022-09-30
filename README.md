@@ -1,7 +1,14 @@
-# SMF Highslide Image Viewer mod
-* **Author:** digger http://mysmf.ru
+[![GitHub release](https://img.shields.io/github/release/realdigger/SMF-Highslide-Image-Viewer.svg)](https://github.com/realdigger/SMF-Highslide-Image-Viewer/releases)
+[![SMF](https://img.shields.io/badge/SMF-2.0-blue.svg?style==flat)](https://simplemachines.org)
+[![license](https://img.shields.io/github/license/realdigger/SMF-Highslide-Image-Viewer.svg)]()
+
+# SMF Highslide Image Viewer [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=SMF%20Highslide%20Image%20Viewer&url=https://github.com/realdigger/SMF-Highslide-Image-Viewer&hashtags=smf,image,viewer)
+* **Author:** digger https://mysmf.net
 * **License:** The MIT License (MIT)
 * **Compatible with:** SMF 2.0
+
+## Installation
+Download and install the latest release tar.gz file from [releases page](https://github.com/realdigger/SMF-Highslide-Image-Viewer/releases).
 
 ## Description
 * Show full-size image like popup window when user click thumbnail
@@ -19,6 +26,9 @@ Highslide JS is an open source JavaScript software, offering a Web 2.0 approach 
 * Single click. After opening the image or HTML popup, the user can scroll further down or leave  the page without closing it.
 * Compatibility and safe fallback. If the user has disabled JavaScript or is using an old browser, the browser redirects directly to the image itself or to a fallback HTML page.
 * http://highslide.com
+
+## Установка
+Загрузите и установите файл tar.gz актуальной версии со [страницы загрузок](https://github.com/realdigger/SMF-Highslide-Image-Viewer/releases).
 
 ## Описание
 * При клике на картинку подгружается большое изображение. Если оно больше области просмотра, то сжимается до границ области просмотра и появляется значок при клике на который растягивается до оригинального размера. Изображение можно перетаскивать. При повторном клике большое изображение "возвращается на место".
