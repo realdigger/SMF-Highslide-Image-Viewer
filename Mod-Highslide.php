@@ -10,12 +10,6 @@
 //if (!defined('SMF'))
 //    die('Hacking attempt...');
 
-$message = '
-<a href="http://radikal.ru/F/s48.radikal.ru/i120/1305/b0/1867b6a843b2.jpg.html" class="bbc_link" target="_blank">
-<img src="http://s48.radikal.ru/i120/1305/b0/1867b6a843b2t.jpg" alt="" class="bbc_img"/>
-';
-echo highslide_images($message);
-
 // Fix thumbnailes for some image hostings
 
 /**
@@ -130,4 +124,3 @@ function highslide_images($message) {
 }
 // Highslide image viewer mod *
 
- 
